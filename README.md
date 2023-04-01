@@ -1,1 +1,1 @@
-# ST_Cell_Segmentation_with_Baysor
+# Spatial Transcriptomic Data Cell Segmentation with Baysor
