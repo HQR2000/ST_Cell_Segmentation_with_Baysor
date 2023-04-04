@@ -5,6 +5,7 @@
 - [Introduction](#index1)
 - [Data](#index2)
 - [Installation&Environmental Setting](#index3)
+- [Running Baysor](#index4)
 
 ## <span id = 'index1'>Introduction</span>
 
@@ -145,6 +146,24 @@ Commands:
 
 If you see this message on your screen, you have successfully installed Baysor on your machine.
 
+##<span id = 'index4'>Running Baysor</span>
+
+Now you can use Baysor to do cell segmentation on spatial transcriptomic dataset.
+
+As the help text of Baysor mentioned, there is a `preview` option for Baysor, which allows you to have an overview of the dataset.
+
+By running the `baysor preview` option on your dataset, Baysor will come up with a **preview.html** containing the transcript, noise level and gene structure plots. 
+
+An example running of `baysor preview` looks like follow:
+
+```
+Baysor preview -x [x] -y [y] -g [geneID] [ST.csv]
+```
+
+In the command, you should replace [x], [y] with the corresponding coordinates in your spatial transcriptomic data and [geneID] with the gene expression for the transcript. The [ST.csv] file should be the location of your spatial transcriptomic data in `.csv` format.
+
+
+The `baysor run` option is actually running hundreds of iterations to wait for the result to convergence, therefore it requires extremely large memory and a long time for the computing. If your memory is not enough for the computing, the program will kiiled itself automatically.
 
 
 
