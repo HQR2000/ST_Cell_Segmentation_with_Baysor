@@ -52,19 +52,19 @@ The third-party library will be used include:
 After installing Miniconda, run the following code to create a virtual environment and install the libraries:
 
 ```
-#Update of conda
+# Update of conda
 conda update conda
 
-#Create a virtual environment with `Python 3.9.12` for the project, replace [NAME] with the name you want for the virtual envrionment
+# Create a virtual environment with `Python 3.9.12` for the project, replace [NAME] with the name you want for the virtual envrionment
 conda create --name [NAME] python=3.9.12
 
-#Activate the virtual environment
+# Activate the virtual environment
 conda activate [NAME]
 
-#Install libraries
+# Install libraries
 conda install pandas
 
-#Deactivate the virtual environment
+# Deactivate the virtual environment
 conda deactivate [NAME]
 ```
 
@@ -103,7 +103,7 @@ curl -L -O https://github.com/kharchenkolab/Baysor/archive/refs/heads/master.zip
 # Unzip master.zip, change directory
 unzip master.zip
 
-#Move to the Baysor-master folder
+# Move to the Baysor-master folder
 cd Baysor-master
 ```
 
@@ -127,7 +127,7 @@ Pkg.instantiate()
 # Exit Julia
 exit()
 
-#Compile Baysor-master
+# Compile Baysor-master
 julia ./bin/build.jl
 ```
 
