@@ -87,7 +87,7 @@ This instruction is also suitable for machine with Linux system and Macbook with
 
 **Julia Installation**
 
-Download **Julia v1.8.3** from [Julia v1.8.3](https://julialang.org/downloads/oldreleases/).(**Important** For Macbook with M1 chip, download the `tar.gz` for `x86` but not `ARM64` architecture)
+Download **Julia v1.8.3** from [Julia v1.8.3](https://julialang.org/downloads/oldreleases/).(**Important!!!** For Macbook with M1 chip, download the `tar.gz` for `x86` but not `ARM64` architecture)
 
 After unzipping the file, the binary of Julia v1.8.3 can be found in `~julia-1.8.3/bin`. Add the path to the $PATH by following the instruction [HERE](https://wpbeaches.com/how-to-add-to-the-shell-path-in-macos-using-terminal).
 
