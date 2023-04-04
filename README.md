@@ -4,7 +4,7 @@
 
 - [Introduction](#index1)
 - [Data](#index2)
-- []()
+- [Installation&Environmental Setting](#index3)
 
 ## <span id = 'index1'>Introduction</span>
 
@@ -34,7 +34,7 @@ During our experiment, the installation of Baysor and environmental setting lead
 
 After trying different combination of different packages, we finally comes up with a workable version of Baysor and we will introduce the whole process of environmental setting and an example of using Baysor to do cell segmentation in spatial transcriptomic data in the following pages. This example works properly on M1 Macbook Air with macOS Monterey 12.5.1.
 
-### Packages Installation
+### <span id = 'index3'>Packages Installation</span>
 
 **Miniconda**
 
