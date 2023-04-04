@@ -12,11 +12,11 @@ The data we used as example is the mouse brain spatial transcriptomic data provi
 
 Description of the dataset:
 
-**- geneID: The gene assocaited with the transcript**
+- **geneID: The gene assocaited with the transcript**
 
-**- x, y: These two columns are the spatial coordinates of the transcript**
+- **x, y: These two columns are the spatial coordinates of the transcript**
 
-**- MIDCount: It is a count of the number of unique molecular identifiers (UMIs) that map to a particular gene in a particular spot**
+- **MIDCount: It is a count of the number of unique molecular identifiers (UMIs) that map to a particular gene in a particular spot**
 
 
 
