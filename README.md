@@ -1,5 +1,7 @@
 # Spatial Transcriptomic Data Cell Segmentation with Baysor
 
+![Segmentation](https://github.com/HQR2000/ST_Cell_Segmentation_with_Baysor/blob/main/public/Example.png)
+
 ## Content
 
 - [Introduction](#index1)
