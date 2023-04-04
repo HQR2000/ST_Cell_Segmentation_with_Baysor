@@ -160,7 +160,7 @@ An example running of `baysor preview` looks like follow:
 Baysor preview -x [x] -y [y] -g [geneID] [ST.csv]
 ```
 
-In the command, you should replace [x], [y] with the corresponding coordinates in your spatial transcriptomic data and [geneID] with the gene expression for the transcript. The [ST.csv] file should be the location of your spatial transcriptomic data in `.csv` format.
+In the command, you should replace [x], [y] with the corresponding coordinates in your spatial transcriptomic data and [geneID] with the gene expression for the transcript. The [ST.csv] should be the location of your spatial transcriptomic data in `.csv` format.
 
 
 The `baysor run` option is actually running hundreds of iterations to wait for the result to convergence, therefore it requires extremely large memory and a long time for the computing. If your memory is not enough for the computing, the program will kiiled itself automatically.
