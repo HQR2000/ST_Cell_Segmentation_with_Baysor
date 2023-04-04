@@ -81,7 +81,7 @@ Different ways to install and use Baysor can be found in [HERE](https://github.c
 
 However, each of these options have variable issues and problems caused by compatibility. 
 
-Therefore, after testing various version of Julia and Baysor, we come up with a different way to install Baysor on our machine. 
+Therefore, after testing various version of Julia and Baysor, we come up with a workable way to install Baysor on our machine. 
 
 This instruction is also suitable for machine with Linux system and Macbook with M1 chip.
 
