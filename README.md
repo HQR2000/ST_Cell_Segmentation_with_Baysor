@@ -38,7 +38,9 @@ After trying different combination of different packages, we finally comes up wi
 
 **Miniconda**
 
-For Macbook with M1 chips, we encourage to use Miniconda to install Python and other third parties library. The Miniconda installation can be found in [HERE](https://docs.conda.io/projects/conda/en/latest/user-guide/install).
+For Macbook with M1 chips, we encourage to use Miniconda to install Python and other third parties library. 
+
+The Miniconda installation can be found in [HERE](https://docs.conda.io/projects/conda/en/latest/user-guide/install).
 
 **Libraries**
 
