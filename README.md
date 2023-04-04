@@ -164,7 +164,7 @@ An example running of `baysor preview` looks like follow:
 Baysor preview -x [x] -y [y] -g [geneID] [ST.csv]
 ```
 
-In the command, you should replace [x], [y] with the corresponding coordinates in your spatial transcriptomic data and [geneID] with the gene expression for the transcript. The [ST.csv] should be the location of your spatial transcriptomic data in `.csv` format.
+In the command, you should replace `[x]`, `[y]` with the corresponding coordinates in your spatial transcriptomic data and [geneID] with the gene expression for the transcript. The `[ST.csv]` should be the location of your spatial transcriptomic data in `.csv` format.
 
 ## Formal Run
 
@@ -176,7 +176,7 @@ A formal run of Baysor looks like follow:
 Baysor run -x [x] -y [y] -g [geneID] -m 15 -s 3 -p [ST.csv]
 ```
 
-Just like the `baysor preview` option, you should replace [x], [y] and [geneID] with the coordinates and gene expression of the transcripts in your spatial transcriptomic dataset. 
+Just like the `baysor preview` option, you should replace `[x]`, `[y]` and `[geneID]` with the coordinates and gene expression of the transcripts in your spatial transcriptomic dataset. 
 
 Besides, there are another two parameters should be manually set. The first one is `-m`, which stands for the minimum number of molecules for a cell. And the second one, `-s`, refer to the expected radius of a cell, and in the paper of Baysor, the author encourage to set it with a value `3`.
 
