@@ -163,8 +163,17 @@ Baysor preview -x [x] -y [y] -g [geneID] [ST.csv]
 In the command, you should replace [x], [y] with the corresponding coordinates in your spatial transcriptomic data and [geneID] with the gene expression for the transcript. The [ST.csv] should be the location of your spatial transcriptomic data in `.csv` format.
 
 
-The `baysor run` option is actually running hundreds of iterations to wait for the result to convergence, therefore it requires extremely large memory and a long time for the computing. If your memory is not enough for the computing, the program will kiiled itself automatically.
+The `baysor run` option is actually running hundreds of iterations to wait for the result to convergence, therefore it requires extremely large memory and a long time for the computing. If your memory is not enough for the computing, the program will kiiled itself automatically. So if you decide to have a formal run using Baysor, please make sure you have enough memory on your machine.
 
+A formal run of Baysor looks like follow:
+
+```
+Baysor run -x [x] -y [y] -g [geneID] -m 15 -s 3 -p [ST.csv]
+```
+
+Just like the `baysor preview` option, you should replace [x], [y] and [geneID] with the coordinates and gene expression of the transcripts in your spatial transcriptomic dataset. 
+
+Besides, there are another two parameters should be manually set. The first one is `-m`, which stands for the minimum number of molecules for a cell. And the second one, `-s`, refer to the expected radius of a cell, and in the paper of Baysor, the author encourage to set it with a value `3`.
 
 
 
