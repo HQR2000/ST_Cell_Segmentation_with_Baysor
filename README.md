@@ -146,7 +146,7 @@ Commands:
 
 If you see this message on your screen, you have successfully installed Baysor on your machine.
 
-##<span id = 'index4'>Running Baysor</span>
+## <span id = 'index4'>Running Baysor</span>
 
 Now you can use Baysor to do cell segmentation on spatial transcriptomic dataset.
 
