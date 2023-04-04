@@ -25,6 +25,8 @@ Description of the dataset:
 - **x, y:** These two columns are the spatial coordinates of the transcript
 
 - **MIDCount:** It is a count of the number of unique molecular identifiers (UMIs) that map to a particular gene in a particular spot
+
+![Example]()
  
  
 
