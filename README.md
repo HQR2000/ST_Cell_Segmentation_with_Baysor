@@ -26,7 +26,7 @@ Description of the dataset:
 
 - **MIDCount:** It is a count of the number of unique molecular identifiers (UMIs) that map to a particular gene in a particular spot
 
-![Example]()
+![Example](https://github.com/HQR2000/ST_Cell_Segmentation_with_Baysor/blob/main/public/Example.png)
  
  
 
