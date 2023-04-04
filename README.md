@@ -67,6 +67,90 @@ conda install pandas
 conda deactivate [NAME]
 ```
 
+After running the code above, you will have a virtual environment with:
+- `Python` 3.9.12
+- `pandas` 1.5.3
+
+**Julia&Baysor Intallation**
+
+Different ways to install and use Baysor can be found in [HERE](https://github.com/kharchenkolab/Baysor#installation). There are basically three ways to use Baysor: 
+
+1. Binary download and use as Julia package 
+2. Build CLI application from source
+3. Use docker
+
+However, each of these options have variable issues and problems caused by compatibility. 
+
+Therefore, after testing various version of Julia and Baysor, we come up with a different way to install Baysor on our machine. 
+
+This instruction is also suitable for machine with Linux system and Macbook with M1 chip.
+
+**Julia Installation**
+
+Download **Julia v1.8.3** from [Julia v1.8.3](https://julialang.org/downloads/oldreleases/).(**Important** For Macbook with M1 chip, download the `tar.gz` for `x86` but not `ARM64` architecture)
+
+After unzipping the file, the binary of Julia v1.8.3 can be found in `~julia-1.8.3/bin`. Add the path to the $PATH by following the instruction [HERE](https://wpbeaches.com/how-to-add-to-the-shell-path-in-macos-using-terminal).
+
+**Baysor-master Installation**
+
+To download the Baysor-master .zip file from GitHub, run the following code:
+
+```
+# Download .zip file from GitHub
+curl -L -O https://github.com/kharchenkolab/Baysor/archive/refs/heads/master.zip
+
+# Unzip master.zip, change directory
+unzip master.zip
+
+#Move to the Baysor-master folder
+cd Baysor-master
+```
+
+Then use Julia to compile Baysor-master by using the following code:
+
+```
+#Activate the Julia interactive interpreter
+julia
+```
+
+If you meet the safety open problem on Macbook, following [this](https://support.apple.com/en-us/HT202491) instruction to allow the executation of the apps download from Internet.
+
+When you successfully activate the Julia interactive interpreter, run the following code to compile Baysor-master:
+
+```
+using Pkg
+Pkg.add(Pkg.PackageSpec(;name="PackageCompiler"))
+Pkg.activate(".")
+Pkg.instantiate()
+
+# Exit Julia
+exit()
+
+#Compile Baysor-master
+julia ./bin/build.jl
+```
+
+After compiling Baysor-master, you can now see the `Baysor` binary in the `~Baysor-master/Baysor/bin` folder, add this folder to your $PATH as what we've done for Julia v1.8.3.
+
+Then, you should now be able to run Baysor on your machine. To check whether the installation is successful, type `Baysor -h` to see whether you have the help text for Baysor like this:
+
+```
+Usage: baysor <command> [options]
+
+Commands:
+        run             run segmentation of the dataset
+        preview         generate preview diagnostics of the dataset
+
+```
+
+If you see this massage on your screen, you have successfully installed Baysor on your machine.
+
+
+
+
+
+
+
  
  
 
