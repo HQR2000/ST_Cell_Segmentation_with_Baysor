@@ -143,7 +143,7 @@ Commands:
 
 ```
 
-If you see this massage on your screen, you have successfully installed Baysor on your machine.
+If you see this message on your screen, you have successfully installed Baysor on your machine.
 
 
 
